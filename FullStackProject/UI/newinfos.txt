@@ -1,0 +1,20 @@
+
+href: Bu özellik, tarayıcıda yeni bir sayfaya veya dış bir bağlantıya gitmek için kullanılır.
+Bu tip bir bağlantı tıklanıldığında, tarayıcı sayfayı tamamen yeniden yükler. 
+Angular uygulamalarında kullanıldığında, bu durum sayfanın yeniden yüklenmesine ve uygulamanın 
+baştan başlamasına neden olabilir.
+<a href="https://www.example.com">External Link</a>
+
+
+routerLink: Angular Router ile birlikte kullanılan bu özellik, uygulama içindeki farklı bileşenlere
+veya sayfalara geçiş yapmak için kullanılır. routerLink kullanıldığında,
+sayfa yeniden yüklenmez ve sadece Angular Router tarafından yönlendirme gerçekleşir.
+Bu, uygulamanın daha hızlı ve kullanıcı dostu olmasına olanak tanır.
+<a routerLink="/my-component">Internal Link</a>
+Özetle, href tarayıcıya yeni bir sayfa veya dış bağlantı göndermek için kullanılırken,
+routerLink Angular Router ile uygulama içinde sayfa geçişleri için kullanılır ve 
+sayfa yeniden yüklenmesine gerek olmaksızın bu geçişleri sağlar.
+
+
+
+ng g s services ==> ????
